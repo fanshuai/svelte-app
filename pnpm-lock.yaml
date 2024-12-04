@@ -9,21 +9,21 @@ importers:
   .:
     dependencies:
       livekit-client:
-        specifier: ^2.7.0
-        version: 2.7.0
+        specifier: ^2.7.3
+        version: 2.7.3
     devDependencies:
       '@livekit/components-react':
         specifier: ^2.6.9
-        version: 2.6.9(livekit-client@2.7.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(tslib@2.7.0)
+        version: 2.6.9(livekit-client@2.7.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(tslib@2.7.0)
       '@sveltejs/adapter-auto':
         specifier: ^3.3.1
-        version: 3.3.1(@sveltejs/kit@2.9.0(@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.3.1)(vite@6.0.1))(svelte@5.3.1)(vite@6.0.1))
+        version: 3.3.1(@sveltejs/kit@2.9.0(@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.5.3)(vite@6.0.2))(svelte@5.5.3)(vite@6.0.2))
       '@sveltejs/kit':
         specifier: ^2.9.0
-        version: 2.9.0(@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.3.1)(vite@6.0.1))(svelte@5.3.1)(vite@6.0.1)
+        version: 2.9.0(@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.5.3)(vite@6.0.2))(svelte@5.5.3)(vite@6.0.2)
       '@sveltejs/vite-plugin-svelte':
         specifier: ^5.0.1
-        version: 5.0.1(svelte@5.3.1)(vite@6.0.1)
+        version: 5.0.1(svelte@5.5.3)(vite@6.0.2)
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -31,20 +31,20 @@ importers:
         specifier: ^18.3.1
         version: 18.3.1(react@18.3.1)
       svelte:
-        specifier: ^5.3.1
-        version: 5.3.1
+        specifier: ^5.5.3
+        version: 5.5.3
       svelte-check:
-        specifier: ^4.1.0
-        version: 4.1.0(svelte@5.3.1)(typescript@5.7.2)
+        specifier: ^4.1.1
+        version: 4.1.1(svelte@5.5.3)(typescript@5.7.2)
       svelte-preprocess-react:
         specifier: ^2.0.5
-        version: 2.0.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(svelte@5.3.1)
+        version: 2.0.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(svelte@5.5.3)
       typescript:
         specifier: ^5.7.2
         version: 5.7.2
       vite:
-        specifier: ^6.0.1
-        version: 6.0.1
+        specifier: ^6.0.2
+        version: 6.0.2
 
 packages:
 
@@ -249,8 +249,8 @@ packages:
   '@livekit/mutex@1.0.0':
     resolution: {integrity: sha512-aiUhoThBNF9UyGTxEURFzJLhhPLIVTnQiEVMjRhPnfHNKLfo2JY9xovHKIus7B78UD5hsP6DlgpmAsjrz4U0Iw==}
 
-  '@livekit/protocol@1.24.0':
-    resolution: {integrity: sha512-9dCsqnkMn7lvbI4NGh18zhLDsrXyUcpS++TEFgEk5Xv1WM3R2kT3EzqgL1P/mr3jaabM6rJ8wZA/KJLuQNpF5w==}
+  '@livekit/protocol@1.29.3':
+    resolution: {integrity: sha512-5La/pm2LsSeCbm7xNe/TvHGYu7uVwDpLrlycpgo5nzofGq/TH67255vS8ni/1Y7vrFuAI8VYG/s42mcC1UF6tQ==}
 
   '@polka/url@1.0.0-next.28':
     resolution: {integrity: sha512-8LduaNlMZGwdZ6qWrKlfa+2M4gahzFkprZiAt2TF8uS0qQgBizKXpXURqvTJ4WtmupWxaLqjRb2UCTe72mu+Aw==}
@@ -485,8 +485,8 @@ packages:
     resolution: {integrity: sha512-o+NO+8WrRiQEE4/7nwRJhN1HWpVmJm511pBHUxPLtp0BUISzlBplORYSmTclCnJvQq2tKu/sgl3xVpkc7ZWuQQ==}
     engines: {node: '>=6'}
 
-  livekit-client@2.7.0:
-    resolution: {integrity: sha512-4vjfSReFNAUD+2oLUz9qFRWztJaI/+AexpOmCgizNsPYpvvqgAvEGxapnhuAug9uP7JVYaKPXaTCq90MWZoDHg==}
+  livekit-client@2.7.3:
+    resolution: {integrity: sha512-oHEmUTFjIJARi5R87PsobZx8y2HCSUwla3Nu71EqDOAMnNY9aoGMLsJVao5Y+v1TSk71rgRm991fihgxtbg5xw==}
 
   locate-character@3.0.0:
     resolution: {integrity: sha512-SW13ws7BjaeJ6p7Q6CO2nchbYEc3X3J6WrmTTDto7yMPqVSZTUyY5Tjbid+Ab8gLnATtygYtiDIJGQRRn2ZOiA==}
@@ -578,8 +578,8 @@ packages:
     resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
     engines: {node: '>=0.10.0'}
 
-  svelte-check@4.1.0:
-    resolution: {integrity: sha512-AflEZYqI578KuDZcpcorPSf597LStxlkN7XqXi38u09zlHODVKd7c+7OuubGzbhgGRUqNTdQCZ+Ga96iRXEf2g==}
+  svelte-check@4.1.1:
+    resolution: {integrity: sha512-NfaX+6Qtc8W/CyVGS/F7/XdiSSyXz+WGYA9ZWV3z8tso14V2vzjfXviKaTFEzB7g8TqfgO2FOzP6XT4ApSTUTw==}
     engines: {node: '>= 18.0.0'}
     hasBin: true
     peerDependencies:
@@ -593,8 +593,8 @@ packages:
       react-dom: '>=16.8.0'
       svelte: '>=5.0.0'
 
-  svelte@5.3.1:
-    resolution: {integrity: sha512-Y6PXppQhIZZ0HLZKj6UMV/VZPJbHiK98K8A5M7mJ+PGrz4erUmuDRUa8l7aw4La++Vl51YWzLUuuB0FZ7JPfnw==}
+  svelte@5.5.3:
+    resolution: {integrity: sha512-0j7XTSg5iXcLNCFcEsIZPtHO7SQeE0KgMcyF1K4K7HkjdKVPumz7dnxeXq5lGJRHfVAMZKqpEJ46rPKPKRJ57Q==}
     engines: {node: '>=18'}
 
   tiny-glob@0.2.9:
@@ -624,8 +624,8 @@ packages:
     peerDependencies:
       react: ^16.8.0  || ^17 || ^18
 
-  vite@6.0.1:
-    resolution: {integrity: sha512-Ldn6gorLGr4mCdFnmeAOLweJxZ34HjKnDm4HGo6P66IEqTxQb36VEdFJQENKxWjupNfoIjvRUnswjn1hpYEpjQ==}
+  vite@6.0.2:
+    resolution: {integrity: sha512-XdQ+VsY2tJpBsKGs0wf3U/+azx8BBpYRHFAyKm5VeEZNOJZRB63q7Sc8Iup3k0TrN3KO6QgyzFf+opSbfY1y0g==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
     peerDependencies:
@@ -788,19 +788,19 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@livekit/components-core@0.11.10(livekit-client@2.7.0)(tslib@2.7.0)':
+  '@livekit/components-core@0.11.10(livekit-client@2.7.3)(tslib@2.7.0)':
     dependencies:
       '@floating-ui/dom': 1.6.11
-      livekit-client: 2.7.0
+      livekit-client: 2.7.3
       loglevel: 1.9.1
       rxjs: 7.8.1
       tslib: 2.7.0
 
-  '@livekit/components-react@2.6.9(livekit-client@2.7.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(tslib@2.7.0)':
+  '@livekit/components-react@2.6.9(livekit-client@2.7.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(tslib@2.7.0)':
     dependencies:
-      '@livekit/components-core': 0.11.10(livekit-client@2.7.0)(tslib@2.7.0)
+      '@livekit/components-core': 0.11.10(livekit-client@2.7.3)(tslib@2.7.0)
       clsx: 2.1.1
-      livekit-client: 2.7.0
+      livekit-client: 2.7.3
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
       tslib: 2.7.0
@@ -808,7 +808,7 @@ snapshots:
 
   '@livekit/mutex@1.0.0': {}
 
-  '@livekit/protocol@1.24.0':
+  '@livekit/protocol@1.29.3':
     dependencies:
       '@bufbuild/protobuf': 1.10.0
 
@@ -868,14 +868,14 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.28.0':
     optional: true
 
-  '@sveltejs/adapter-auto@3.3.1(@sveltejs/kit@2.9.0(@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.3.1)(vite@6.0.1))(svelte@5.3.1)(vite@6.0.1))':
+  '@sveltejs/adapter-auto@3.3.1(@sveltejs/kit@2.9.0(@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.5.3)(vite@6.0.2))(svelte@5.5.3)(vite@6.0.2))':
     dependencies:
-      '@sveltejs/kit': 2.9.0(@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.3.1)(vite@6.0.1))(svelte@5.3.1)(vite@6.0.1)
+      '@sveltejs/kit': 2.9.0(@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.5.3)(vite@6.0.2))(svelte@5.5.3)(vite@6.0.2)
       import-meta-resolve: 4.1.0
 
-  '@sveltejs/kit@2.9.0(@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.3.1)(vite@6.0.1))(svelte@5.3.1)(vite@6.0.1)':
+  '@sveltejs/kit@2.9.0(@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.5.3)(vite@6.0.2))(svelte@5.5.3)(vite@6.0.2)':
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 5.0.1(svelte@5.3.1)(vite@6.0.1)
+      '@sveltejs/vite-plugin-svelte': 5.0.1(svelte@5.5.3)(vite@6.0.2)
       '@types/cookie': 0.6.0
       cookie: 0.6.0
       devalue: 5.1.1
@@ -887,29 +887,29 @@ snapshots:
       sade: 1.8.1
       set-cookie-parser: 2.7.1
       sirv: 3.0.0
-      svelte: 5.3.1
+      svelte: 5.5.3
       tiny-glob: 0.2.9
-      vite: 6.0.1
+      vite: 6.0.2
 
-  '@sveltejs/vite-plugin-svelte-inspector@4.0.1(@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.3.1)(vite@6.0.1))(svelte@5.3.1)(vite@6.0.1)':
+  '@sveltejs/vite-plugin-svelte-inspector@4.0.1(@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.5.3)(vite@6.0.2))(svelte@5.5.3)(vite@6.0.2)':
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 5.0.1(svelte@5.3.1)(vite@6.0.1)
+      '@sveltejs/vite-plugin-svelte': 5.0.1(svelte@5.5.3)(vite@6.0.2)
       debug: 4.3.7
-      svelte: 5.3.1
-      vite: 6.0.1
+      svelte: 5.5.3
+      vite: 6.0.2
     transitivePeerDependencies:
       - supports-color
 
-  '@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.3.1)(vite@6.0.1)':
+  '@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.5.3)(vite@6.0.2)':
     dependencies:
-      '@sveltejs/vite-plugin-svelte-inspector': 4.0.1(@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.3.1)(vite@6.0.1))(svelte@5.3.1)(vite@6.0.1)
+      '@sveltejs/vite-plugin-svelte-inspector': 4.0.1(@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.5.3)(vite@6.0.2))(svelte@5.5.3)(vite@6.0.2)
       debug: 4.3.7
       deepmerge: 4.3.1
       kleur: 4.1.5
       magic-string: 0.30.14
-      svelte: 5.3.1
-      vite: 6.0.1
-      vitefu: 1.0.4(vite@6.0.1)
+      svelte: 5.5.3
+      vite: 6.0.2
+      vitefu: 1.0.4(vite@6.0.2)
     transitivePeerDependencies:
       - supports-color
 
@@ -1002,10 +1002,10 @@ snapshots:
 
   kleur@4.1.5: {}
 
-  livekit-client@2.7.0:
+  livekit-client@2.7.3:
     dependencies:
       '@livekit/mutex': 1.0.0
-      '@livekit/protocol': 1.24.0
+      '@livekit/protocol': 1.29.3
       events: 3.3.0
       loglevel: 1.9.2
       sdp-transform: 2.15.0
@@ -1108,27 +1108,27 @@ snapshots:
 
   source-map-js@1.2.1: {}
 
-  svelte-check@4.1.0(svelte@5.3.1)(typescript@5.7.2):
+  svelte-check@4.1.1(svelte@5.5.3)(typescript@5.7.2):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.25
       chokidar: 4.0.1
       fdir: 6.4.2
       picocolors: 1.1.1
       sade: 1.8.1
-      svelte: 5.3.1
+      svelte: 5.5.3
       typescript: 5.7.2
     transitivePeerDependencies:
       - picomatch
 
-  svelte-preprocess-react@2.0.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(svelte@5.3.1):
+  svelte-preprocess-react@2.0.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(svelte@5.5.3):
     dependencies:
       estree-walker: 3.0.3
       magic-string: 0.30.14
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
-      svelte: 5.3.1
+      svelte: 5.5.3
 
-  svelte@5.3.1:
+  svelte@5.5.3:
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@jridgewell/sourcemap-codec': 1.5.0
@@ -1166,7 +1166,7 @@ snapshots:
       lodash.debounce: 4.0.8
       react: 18.3.1
 
-  vite@6.0.1:
+  vite@6.0.2:
     dependencies:
       esbuild: 0.24.0
       postcss: 8.4.49
@@ -1174,9 +1174,9 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  vitefu@1.0.4(vite@6.0.1):
+  vitefu@1.0.4(vite@6.0.2):
     optionalDependencies:
-      vite: 6.0.1
+      vite: 6.0.2
 
   webrtc-adapter@9.0.1:
     dependencies:
