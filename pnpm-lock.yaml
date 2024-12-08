@@ -14,37 +14,37 @@ importers:
     devDependencies:
       '@livekit/components-react':
         specifier: ^2.6.9
-        version: 2.6.9(livekit-client@2.7.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(tslib@2.7.0)
+        version: 2.6.9(livekit-client@2.7.3)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(tslib@2.7.0)
       '@sveltejs/adapter-auto':
         specifier: ^3.3.1
-        version: 3.3.1(@sveltejs/kit@2.9.0(@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.5.3)(vite@6.0.2))(svelte@5.5.3)(vite@6.0.2))
+        version: 3.3.1(@sveltejs/kit@2.9.0(@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.8.1)(vite@6.0.3))(svelte@5.8.1)(vite@6.0.3))
       '@sveltejs/kit':
         specifier: ^2.9.0
-        version: 2.9.0(@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.5.3)(vite@6.0.2))(svelte@5.5.3)(vite@6.0.2)
+        version: 2.9.0(@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.8.1)(vite@6.0.3))(svelte@5.8.1)(vite@6.0.3)
       '@sveltejs/vite-plugin-svelte':
         specifier: ^5.0.1
-        version: 5.0.1(svelte@5.5.3)(vite@6.0.2)
+        version: 5.0.1(svelte@5.8.1)(vite@6.0.3)
       react:
-        specifier: ^18.3.1
-        version: 18.3.1
+        specifier: ^19.0.0
+        version: 19.0.0
       react-dom:
-        specifier: ^18.3.1
-        version: 18.3.1(react@18.3.1)
+        specifier: ^19.0.0
+        version: 19.0.0(react@19.0.0)
       svelte:
-        specifier: ^5.5.3
-        version: 5.5.3
+        specifier: ^5.8.1
+        version: 5.8.1
       svelte-check:
         specifier: ^4.1.1
-        version: 4.1.1(svelte@5.5.3)(typescript@5.7.2)
+        version: 4.1.1(svelte@5.8.1)(typescript@5.7.2)
       svelte-preprocess-react:
         specifier: ^2.0.5
-        version: 2.0.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(svelte@5.5.3)
+        version: 2.0.5(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(svelte@5.8.1)
       typescript:
         specifier: ^5.7.2
         version: 5.7.2
       vite:
-        specifier: ^6.0.2
-        version: 6.0.2
+        specifier: ^6.0.3
+        version: 6.0.3
 
 packages:
 
@@ -478,9 +478,6 @@ packages:
   is-reference@3.0.3:
     resolution: {integrity: sha512-ixkJoqQvAP88E6wLydLGGqCJsrFUnqoH6HnaczB8XmDH1oaWU+xxdptvikTgaEhtZ53Ky6YXiBuUI2WXLMCwjw==}
 
-  js-tokens@4.0.0:
-    resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
-
   kleur@4.1.5:
     resolution: {integrity: sha512-o+NO+8WrRiQEE4/7nwRJhN1HWpVmJm511pBHUxPLtp0BUISzlBplORYSmTclCnJvQq2tKu/sgl3xVpkc7ZWuQQ==}
     engines: {node: '>=6'}
@@ -501,10 +498,6 @@ packages:
   loglevel@1.9.2:
     resolution: {integrity: sha512-HgMmCqIJSAKqo68l0rS2AanEWfkxaZ5wNiEFb5ggm08lDs9Xl2KxBlX3PTcaD2chBM1gXAYf491/M2Rv8Jwayg==}
     engines: {node: '>= 0.6.0'}
-
-  loose-envify@1.4.0:
-    resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==}
-    hasBin: true
 
   magic-string@0.30.14:
     resolution: {integrity: sha512-5c99P1WKTed11ZC0HMJOj6CDIue6F8ySu+bJL+85q1zBEIY8IklrJ1eiKC2NDRh3Ct3FcvmJPyQHb9erXMTJNw==}
@@ -532,13 +525,13 @@ packages:
     resolution: {integrity: sha512-OCVPnIObs4N29kxTjzLfUryOkvZEq+pf8jTF0lg8E7uETuWHA+v7j3c/xJmiqpX450191LlmZfUKkXxkTry7nA==}
     engines: {node: ^10 || ^12 || >=14}
 
-  react-dom@18.3.1:
-    resolution: {integrity: sha512-5m4nQKp+rZRb09LNH59GM4BxTh9251/ylbKIbpe7TpGxfJ+9kv6BLkLBXIjjspbgbnIBNqlI23tRnTWT0snUIw==}
+  react-dom@19.0.0:
+    resolution: {integrity: sha512-4GV5sHFG0e/0AD4X+ySy6UJd3jVl1iNsNHdpad0qhABJ11twS3TTBnseqsKurKcsNqCEFeGL3uLpVChpIO3QfQ==}
     peerDependencies:
-      react: ^18.3.1
+      react: ^19.0.0
 
-  react@18.3.1:
-    resolution: {integrity: sha512-wS+hAgJShR0KhEvPJArfuPVN1+Hz1t0Y6n5jLrGQbkb4urgPE/0Rve+1kMB1v/oWgHgm4WIcV+i7F2pTVj+2iQ==}
+  react@19.0.0:
+    resolution: {integrity: sha512-V8AVnmPIICiWpGfm6GLzCR/W5FXLchHop40W4nXBmdlEceh16rCN8O8LNWm5bh5XUX91fh7KpA+W0TgMKmgTpQ==}
     engines: {node: '>=0.10.0'}
 
   readdirp@4.0.2:
@@ -557,8 +550,8 @@ packages:
     resolution: {integrity: sha512-xal3CZX1Xlo/k4ApwCFrHVACi9fBqJ7V+mwhBsuf/1IOKbBy098Fex+Wa/5QMubw09pSZ/u8EY8PWgevJsXp1A==}
     engines: {node: '>=6'}
 
-  scheduler@0.23.2:
-    resolution: {integrity: sha512-UOShsPwz7NrMUqhR6t0hWjFduvOzbtv7toDH1/hIrfRNIDBnnBWd0CwJTGvTpngVlmwGCdP9/Zl/tVrDqcuYzQ==}
+  scheduler@0.25.0:
+    resolution: {integrity: sha512-xFVuu11jh+xcO7JOAGJNOXld8/TcEHK/4CituBUeUb5hqxJLj9YuemAEuvm9gQ/+pgXYfbQuqAkiYu+u7YEsNA==}
 
   sdp-transform@2.15.0:
     resolution: {integrity: sha512-KrOH82c/W+GYQ0LHqtr3caRpM3ITglq3ljGUIb8LTki7ByacJZ9z+piSGiwZDsRyhQbYBOBJgr2k6X4BZXi3Kw==}
@@ -593,8 +586,8 @@ packages:
       react-dom: '>=16.8.0'
       svelte: '>=5.0.0'
 
-  svelte@5.5.3:
-    resolution: {integrity: sha512-0j7XTSg5iXcLNCFcEsIZPtHO7SQeE0KgMcyF1K4K7HkjdKVPumz7dnxeXq5lGJRHfVAMZKqpEJ46rPKPKRJ57Q==}
+  svelte@5.8.1:
+    resolution: {integrity: sha512-tqJY46Xoe+KiKvD4/guNlqpE+jco4IBcuaM6Ei9SEMETtsbLMfbak9XjTacqd6aGMmWXh7uFInfFTd4yES5r0A==}
     engines: {node: '>=18'}
 
   tiny-glob@0.2.9:
@@ -624,8 +617,8 @@ packages:
     peerDependencies:
       react: ^16.8.0  || ^17 || ^18
 
-  vite@6.0.2:
-    resolution: {integrity: sha512-XdQ+VsY2tJpBsKGs0wf3U/+azx8BBpYRHFAyKm5VeEZNOJZRB63q7Sc8Iup3k0TrN3KO6QgyzFf+opSbfY1y0g==}
+  vite@6.0.3:
+    resolution: {integrity: sha512-Cmuo5P0ENTN6HxLSo6IHsjCLn/81Vgrp81oaiFFMRa8gGDj5xEjIcEpf2ZymZtZR8oU0P2JX5WuUp/rlXcHkAw==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
     peerDependencies:
@@ -796,15 +789,15 @@ snapshots:
       rxjs: 7.8.1
       tslib: 2.7.0
 
-  '@livekit/components-react@2.6.9(livekit-client@2.7.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(tslib@2.7.0)':
+  '@livekit/components-react@2.6.9(livekit-client@2.7.3)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(tslib@2.7.0)':
     dependencies:
       '@livekit/components-core': 0.11.10(livekit-client@2.7.3)(tslib@2.7.0)
       clsx: 2.1.1
       livekit-client: 2.7.3
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
       tslib: 2.7.0
-      usehooks-ts: 3.1.0(react@18.3.1)
+      usehooks-ts: 3.1.0(react@19.0.0)
 
   '@livekit/mutex@1.0.0': {}
 
@@ -868,14 +861,14 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.28.0':
     optional: true
 
-  '@sveltejs/adapter-auto@3.3.1(@sveltejs/kit@2.9.0(@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.5.3)(vite@6.0.2))(svelte@5.5.3)(vite@6.0.2))':
+  '@sveltejs/adapter-auto@3.3.1(@sveltejs/kit@2.9.0(@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.8.1)(vite@6.0.3))(svelte@5.8.1)(vite@6.0.3))':
     dependencies:
-      '@sveltejs/kit': 2.9.0(@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.5.3)(vite@6.0.2))(svelte@5.5.3)(vite@6.0.2)
+      '@sveltejs/kit': 2.9.0(@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.8.1)(vite@6.0.3))(svelte@5.8.1)(vite@6.0.3)
       import-meta-resolve: 4.1.0
 
-  '@sveltejs/kit@2.9.0(@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.5.3)(vite@6.0.2))(svelte@5.5.3)(vite@6.0.2)':
+  '@sveltejs/kit@2.9.0(@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.8.1)(vite@6.0.3))(svelte@5.8.1)(vite@6.0.3)':
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 5.0.1(svelte@5.5.3)(vite@6.0.2)
+      '@sveltejs/vite-plugin-svelte': 5.0.1(svelte@5.8.1)(vite@6.0.3)
       '@types/cookie': 0.6.0
       cookie: 0.6.0
       devalue: 5.1.1
@@ -887,29 +880,29 @@ snapshots:
       sade: 1.8.1
       set-cookie-parser: 2.7.1
       sirv: 3.0.0
-      svelte: 5.5.3
+      svelte: 5.8.1
       tiny-glob: 0.2.9
-      vite: 6.0.2
+      vite: 6.0.3
 
-  '@sveltejs/vite-plugin-svelte-inspector@4.0.1(@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.5.3)(vite@6.0.2))(svelte@5.5.3)(vite@6.0.2)':
+  '@sveltejs/vite-plugin-svelte-inspector@4.0.1(@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.8.1)(vite@6.0.3))(svelte@5.8.1)(vite@6.0.3)':
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 5.0.1(svelte@5.5.3)(vite@6.0.2)
+      '@sveltejs/vite-plugin-svelte': 5.0.1(svelte@5.8.1)(vite@6.0.3)
       debug: 4.3.7
-      svelte: 5.5.3
-      vite: 6.0.2
+      svelte: 5.8.1
+      vite: 6.0.3
     transitivePeerDependencies:
       - supports-color
 
-  '@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.5.3)(vite@6.0.2)':
+  '@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.8.1)(vite@6.0.3)':
     dependencies:
-      '@sveltejs/vite-plugin-svelte-inspector': 4.0.1(@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.5.3)(vite@6.0.2))(svelte@5.5.3)(vite@6.0.2)
+      '@sveltejs/vite-plugin-svelte-inspector': 4.0.1(@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.8.1)(vite@6.0.3))(svelte@5.8.1)(vite@6.0.3)
       debug: 4.3.7
       deepmerge: 4.3.1
       kleur: 4.1.5
       magic-string: 0.30.14
-      svelte: 5.5.3
-      vite: 6.0.2
-      vitefu: 1.0.4(vite@6.0.2)
+      svelte: 5.8.1
+      vite: 6.0.3
+      vitefu: 1.0.4(vite@6.0.3)
     transitivePeerDependencies:
       - supports-color
 
@@ -998,8 +991,6 @@ snapshots:
     dependencies:
       '@types/estree': 1.0.6
 
-  js-tokens@4.0.0: {}
-
   kleur@4.1.5: {}
 
   livekit-client@2.7.3:
@@ -1022,10 +1013,6 @@ snapshots:
 
   loglevel@1.9.2: {}
 
-  loose-envify@1.4.0:
-    dependencies:
-      js-tokens: 4.0.0
-
   magic-string@0.30.14:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.0
@@ -1046,15 +1033,12 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  react-dom@18.3.1(react@18.3.1):
+  react-dom@19.0.0(react@19.0.0):
     dependencies:
-      loose-envify: 1.4.0
-      react: 18.3.1
-      scheduler: 0.23.2
+      react: 19.0.0
+      scheduler: 0.25.0
 
-  react@18.3.1:
-    dependencies:
-      loose-envify: 1.4.0
+  react@19.0.0: {}
 
   readdirp@4.0.2: {}
 
@@ -1090,9 +1074,7 @@ snapshots:
     dependencies:
       mri: 1.2.0
 
-  scheduler@0.23.2:
-    dependencies:
-      loose-envify: 1.4.0
+  scheduler@0.25.0: {}
 
   sdp-transform@2.15.0: {}
 
@@ -1108,27 +1090,27 @@ snapshots:
 
   source-map-js@1.2.1: {}
 
-  svelte-check@4.1.1(svelte@5.5.3)(typescript@5.7.2):
+  svelte-check@4.1.1(svelte@5.8.1)(typescript@5.7.2):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.25
       chokidar: 4.0.1
       fdir: 6.4.2
       picocolors: 1.1.1
       sade: 1.8.1
-      svelte: 5.5.3
+      svelte: 5.8.1
       typescript: 5.7.2
     transitivePeerDependencies:
       - picomatch
 
-  svelte-preprocess-react@2.0.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(svelte@5.5.3):
+  svelte-preprocess-react@2.0.5(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(svelte@5.8.1):
     dependencies:
       estree-walker: 3.0.3
       magic-string: 0.30.14
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      svelte: 5.5.3
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
+      svelte: 5.8.1
 
-  svelte@5.5.3:
+  svelte@5.8.1:
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@jridgewell/sourcemap-codec': 1.5.0
@@ -1161,12 +1143,12 @@ snapshots:
 
   typescript@5.7.2: {}
 
-  usehooks-ts@3.1.0(react@18.3.1):
+  usehooks-ts@3.1.0(react@19.0.0):
     dependencies:
       lodash.debounce: 4.0.8
-      react: 18.3.1
+      react: 19.0.0
 
-  vite@6.0.2:
+  vite@6.0.3:
     dependencies:
       esbuild: 0.24.0
       postcss: 8.4.49
@@ -1174,9 +1156,9 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  vitefu@1.0.4(vite@6.0.2):
+  vitefu@1.0.4(vite@6.0.3):
     optionalDependencies:
-      vite: 6.0.2
+      vite: 6.0.3
 
   webrtc-adapter@9.0.1:
     dependencies:
